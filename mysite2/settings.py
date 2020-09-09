@@ -25,8 +25,8 @@ SECRET_KEY = os.environ.get( 'SECRET_KEY' )
 #SECRET_KEY = '0bwx5zj0*yi2lvk_@$_f4yzf8h057ch8q7n6hotg1m2!^1u29d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = (os.environ.get( ' DEBUG_VALUE ' ) == ' True ' )
-
+#DEBUG = (os.environ.get( ' DEBUG_VALUE ' ) == ' True ' )
+DEBUG = True
 ALLOWED_HOSTS = [ 'guarded-wildwood-99164.herokuapp.com' ]
 
 
